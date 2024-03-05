@@ -2,5 +2,7 @@
   height: 100%;
   width: 35vw;
   padding: 10px 20px;
+  border: 1px black solid;
   border-radius: 8px;
+  font-family: "Poppins", sans-serif;
 }
