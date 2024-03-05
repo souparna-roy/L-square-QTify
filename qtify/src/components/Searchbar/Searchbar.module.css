@@ -1,8 +1,21 @@
+.container {
+  display: flex;
+}
 .search {
   height: 100%;
   width: 35vw;
   padding: 10px 20px;
   border: 1px black solid;
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
   font-family: "Poppins", sans-serif;
+}
+.searchButton {
+  border: 1px;
+  border-top: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0px 9px;
 }
